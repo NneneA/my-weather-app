@@ -1,0 +1,97 @@
+body {
+  color: rgb(104, 104, 153);
+}
+
+h1 {
+  margin-top: 20px;
+  padding-top: 20px;
+  color: rgb(104, 104, 153);
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.weather-app {
+  box-sizing: border-box;
+  border: 2px solid rgb(188, 188, 236);
+  width: 700px;
+  height: 400px;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+
+#city-input {
+  margin: 40px 5px 20px 130px;
+  border: 1px solid rgb(188, 188, 236);
+  border-radius: 5px;
+  padding: 5px 20px;
+}
+
+.search {
+  background-color: rgb(188, 188, 236);
+  border: none;
+  border-radius: 5px;
+  padding: 5px 20px;
+  color: rgb(104, 104, 153);
+}
+
+.current {
+  background-color: rgb(116, 240, 240);
+  border: none;
+  border-radius: 5px;
+  padding: 5px 20px;
+  color: rgb(97, 140, 146);
+  margin-left: 10px;
+}
+
+.display {
+  box-sizing: border-box;
+  border: 2px solid rgb(188, 188, 236);
+  width: 500px;
+  height: 200px;
+  border-radius: 5px;
+  margin-left: 95px;
+  margin-bottom: 100px;
+}
+
+#city {
+  margin: 10px 0 5px 20px;
+  font-size: 25px;
+}
+
+#day {
+  margin: 0 0 5px 20px;
+}
+
+.temp-col {
+  margin-left: 10px;
+}
+
+.parameter-col {
+  margin-left: 40px;
+}
+
+.temperature {
+  color: rgb(33, 33, 33);
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 1;
+  margin: 0 0 10px 15px;
+}
+
+.units {
+  position: relative;
+  top: -25px;
+}
+
+.looks {
+  margin-top: -10px;
+  margin-left: 20px;
+}
