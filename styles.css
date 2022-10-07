@@ -95,3 +95,16 @@ a {
   margin-top: -10px;
   margin-left: 20px;
 }
+
+footer {
+  text-align: center;
+}
+
+.gh-link {
+  text-decoration: none;
+  color: #0000ff;
+}
+
+.gh-link:hover {
+  text-decoration: underline;
+}
