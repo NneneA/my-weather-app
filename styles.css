@@ -70,8 +70,20 @@ a {
   margin: 0 0 5px 20px;
 }
 
+#icon {
+  line-height: 1px;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.icon-col {
+  line-height: 1px;
+  margin-top: 0;
+  padding-top: 0;
+}
+
 .temp-col {
-  margin-left: 10px;
+  margin-left: 5px;
 }
 
 .parameter-col {
@@ -89,6 +101,10 @@ a {
 .units {
   position: relative;
   top: -25px;
+}
+
+.units .active {
+  color: rgb(33, 33, 33);
 }
 
 .looks {
