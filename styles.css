@@ -62,18 +62,20 @@ a {
 }
 
 #city {
-  margin: 10px 0 5px 20px;
+  margin: 10px 0 1px 20px;
   font-size: 25px;
 }
 
 #day {
-  margin: 0 0 5px 20px;
+  margin: 0 0 7px 20px;
 }
 
 #icon {
   line-height: 1px;
   margin-top: 0;
   padding-top: 0;
+  position: relative;
+  top: -20px;
 }
 
 .icon-col {
@@ -83,7 +85,7 @@ a {
 }
 
 .temp-col {
-  margin-left: 5px;
+  margin-left: 2px;
 }
 
 .parameter-col {
@@ -108,7 +110,7 @@ a {
 }
 
 .looks {
-  margin-top: -10px;
+  margin-top: -30px;
   margin-left: 20px;
 }
 
