@@ -106,10 +106,7 @@ a {
 .units {
   position: relative;
   top: -25px;
-}
-
-.units .active {
-  color: rgb(33, 33, 33);
+  margin-left: -5px;
 }
 
 .looks {
